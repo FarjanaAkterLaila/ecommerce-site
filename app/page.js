@@ -1,15 +1,16 @@
 import Image from "next/image";
 import Header from "./Header";
 import "./globals.css"
+import Banner from "./Banner";
 export default function Home() {
   return (
     <div>
-    <Header />
+      <Header />
 
-    {/* Banner Section */}
-    {/* <Banner />
-
-  
+      {/* Banner Section */}
+      <Banner />
+     
+      {/*  
     <section className="container mx-auto py-10">
       <h2 className="text-3xl font-bold mb-6">Shop by Category</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -30,6 +31,6 @@ export default function Home() {
     </section>
 
     <Footer /> */}
-  </div>
+    </div>
   );
 }
