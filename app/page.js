@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./Header";
 import "./globals.css"
 import Banner from "./Banner";
+import Feature from "./Feature";
 export default function Home() {
   return (
     <div>
@@ -9,7 +10,7 @@ export default function Home() {
 
       {/* Banner Section */}
       <Banner />
-     
+      <Feature/>
       {/*  
     <section className="container mx-auto py-10">
       <h2 className="text-3xl font-bold mb-6">Shop by Category</h2>
