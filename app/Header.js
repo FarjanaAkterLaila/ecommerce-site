@@ -6,6 +6,7 @@ import { FaSearch } from 'react-icons/fa';
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FaRegUser } from "react-icons/fa6";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Header = () => {
     // State to control responsive visibility
@@ -60,10 +61,11 @@ const Header = () => {
 
                 {/* Navigation for larger screens */}
                 <nav className="hidden md:flex space-x-6">
-                    <a href="/" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Home</a>
-                    <a href="/shop" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Shop</a>
-                    <a href="/deals" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Deals</a>
-                    <a href="/whats-new" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">What's New</a>
+                    <Link href="/" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Home</Link>
+                    <Link href="/shop" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Shop</Link> 
+                
+                    <Link href="/deals" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Deals</Link>
+                    <Link href="/whats-new" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">What's New</Link>
                 </nav>
 
                 {/* Right Side Icons */}

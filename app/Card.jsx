@@ -68,7 +68,7 @@ const Card = () => {
             </div>
 
             {/* See More Button */}
-            <div className="w-full flex justify-center mt-6">
+            <div className="w-full flex justify-center my-6">
                 <button className="bg-[#7e53d4] text-white py-3 px-8 rounded-md hover:bg-[#5a38b8]">
                     See More
                 </button>
