@@ -1,5 +1,6 @@
 import React from 'react'
 import './Styles/styles.css';
+import Image from 'next/image';
 const Offer = () => {
   return (
 
@@ -25,11 +26,14 @@ const Offer = () => {
       </div>
     </div>
   </div>
-  <img 
+  <Image 
     className="w-full h-auto mt-6 lg:mt-0 lg:w-[427px] lg:h-[495px] lg:left-[765px] lg:top-[12px] lg:absolute" 
-    src="./Image/image 2.png" 
+    src="/Image/image 2.png" 
     alt="Promotion" 
-  />
+    width={427} 
+    height={495} 
+/>
+
 </div>
 
 

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Banner = () => {
     return (
         <section>
@@ -23,8 +25,8 @@ const Banner = () => {
                                 <div className="w-6 h-6 relative flex-col justify-start items-start flex">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="arrow-up-right-01">
-                                            <path id="Vector" d="M17 7L6 18" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-                                            <path id="Vector_2" d="M11 6.13153C11 6.13153 16.6335 5.65664 17.4885 6.51155C18.3434 7.36647 17.8684 13 17.8684 13" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path id="Vector" d="M17 7L6 18" stroke="white"  />
+                                            <path id="Vector_2" d="M11 6.13153C11 6.13153 16.6335 5.65664 17.4885 6.51155C18.3434 7.36647 17.8684 13 17.8684 13" stroke="white"   />
                                         </g>
                                     </svg>
                                 </div>
@@ -39,11 +41,15 @@ const Banner = () => {
                 {/* Free Shipping */}
                 <div className="flex justify-start items-center gap-[16px] sm:gap-[12px] relative">
                     <div className="w-8 h-8 relative ml-4">
-                        <img 
-                            src="./Image/truck-delivery.png"
-                            alt="Free Shipping Icon" 
-                            className="w-full h-full object-contain"
-                        />
+                    <Image 
+    src="/Image/truck-delivery.png" 
+    alt="Free Shipping Icon" 
+    width={500} 
+    height={500} 
+    layout="responsive"
+    className="object-contain"
+/>
+
                     </div>
                     <div className="flex-col justify-start items-start gap-[6.47px] inline-flex">
                         <div className="text-white text-base font-semibold font-['Manrope'] leading-tight">FREE SHIPPING</div>
@@ -54,11 +60,13 @@ const Banner = () => {
                 {/* 7 Days Exchange */}
                 <div className="flex justify-start items-center gap-[16px] sm:gap-[12px] relative">
                     <div className="w-[25.89px] h-[25.89px] relative ml-4">
-                        <img 
-                            src="./Image/exchange-01.png" 
-                            alt="Exchange Icon" 
-                            className="w-full h-full object-contain"
-                        />
+                    <Image 
+    src="/Image/exchange-01.png" 
+    alt="Exchange Icon" 
+    width={500} 
+    height={500} 
+    className="w-full h-full object-contain" 
+/>
                     </div>
                     <div className="flex-col justify-start items-start gap-[6.47px] inline-flex">
                         <div className="text-white text-base font-semibold font-['Manrope'] leading-tight">7 DAYS EXCHANGE</div>
@@ -69,10 +77,12 @@ const Banner = () => {
                 {/* Payment Secure */}
                 <div className="flex justify-start items-center gap-[16px] sm:gap-[12px] relative">
                     <div className="w-[25.89px] h-[25.89px] relative ml-4">
-                        <img 
-                            src="./Image/payment-02.png" 
+                        <Image  
+                            src="/Image/payment-02.png" 
                             alt="Payment Secure Icon" 
                             className="w-full h-full object-contain"
+                            width={500} 
+    height={500} 
                         />
                     </div>
                     <div className="flex-col justify-start items-start gap-[6.47px] inline-flex">

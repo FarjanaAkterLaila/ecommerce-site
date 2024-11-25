@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Feature = () => {
@@ -18,20 +19,26 @@ const Feature = () => {
             <div className="flex gap-1">
                 <div className="w-8 h-8 p-1 origin-top-left rounded-2xl shadow border border-[#7e53d4] justify-center items-center inline-flex">
                     <div className="w-6 h-6 relative flex-col justify-start items-start flex">
-                        <img
-                            src="./Image/arrow-right-02.png"
-                            alt="Product Image 1"
-                            className="w-[50px] h-[50px] object-cover rounded-full"
-                        />
+                    <Image 
+    src="/Image/arrow-right-02.png" 
+    alt="Product Image 1" 
+    width={50} 
+    height={50} 
+    layout="responsive" 
+    className="object-cover rounded-full" 
+/>
                     </div>
                 </div>
                 <div className="w-8 h-8 p-1 origin-top-left rounded-2xl shadow border border-[#7e53d4] justify-center items-center inline-flex">
                     <div className="w-6 h-6 relative flex-col justify-start items-start flex">
-                        <img
-                            src="./Image/arrow-right-02 (1).png"
-                            alt="Product Image 1"
-                            className="w-[50px] h-[50px] object-cover rounded-full"
-                        />
+                    <Image 
+    src="/Image/arrow-right-02 (1).png" 
+    alt="Product Image 1" 
+    width={50} 
+    height={50} 
+    className="w-[50px] h-[50px] object-cover rounded-full" 
+/>
+
                     </div>
                 </div>
 

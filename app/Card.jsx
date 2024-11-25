@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 const Card = () => {
@@ -7,7 +8,14 @@ const Card = () => {
             {/* Card 1 */}
             <div className="w-[302px] h-[400px] p-2 bg-white rounded-2xl flex-col justify-start items-start gap-4 inline-flex">
                 <div className="h-[287px] px-[17px] bg-[#f6f5fd] rounded-lg flex-col justify-start items-center flex">
-                    <img className="w-[252px] h-[379px] origin-top-left " src="./Image/Pexels Photo by Muneeb Malhotra.png" />
+                <Image 
+    src="/Image/Pexels Photo by Muneeb Malhotra.png" 
+    alt="Pexels Photo by Muneeb Malhotra" 
+    width={252} 
+    height={379} 
+    className="w-[252px] h-[379px] origin-top-left" 
+/>
+
                 </div>
                 <div className="self-stretch h-[25px] px-2 flex-col justify-start items-start gap-2 flex">
                     <div className="self-stretch justify-between items-center inline-flex">
@@ -22,7 +30,14 @@ const Card = () => {
             {/* Card 2 */}
             <div className="w-[302px] h-[400px] p-2 bg-white rounded-2xl flex-col justify-start items-start gap-4 inline-flex">
                 <div className="h-[287px] bg-[#f6f5fd] rounded-lg flex-col justify-end items-center flex">
-                    <img className="w-[286px] h-80" src="./Image/Pexels Photo by Bruno Palace.jpg" />
+                <Image 
+    src="/Image/Pexels Photo by Bruno Palace.jpg" 
+    alt="Pexels Photo by Bruno Palace" 
+    width={286} 
+    height={320} 
+    className="w-[286px] h-80" 
+/>
+
                 </div>
                 <div className="self-stretch h-[25px] px-2 flex-col justify-start items-start gap-2 flex">
                     <div className="self-stretch justify-between items-center inline-flex">
@@ -38,7 +53,14 @@ const Card = () => {
             {/* Card 3 */}
             <div className="w-[302px] h-[400px] p-2 bg-white rounded-2xl flex-col justify-start items-start gap-4 inline-flex">
                 <div className="h-[287px] px-[42px] bg-[#f6f5fd] rounded-lg flex-col justify-center items-center flex">
-                    <img className="w-[202px] h-[303px] origin-top-left" src="./Image/Pexels Photo by Bruno Palace.png" />
+                <Image 
+    src="/Image/Pexels Photo by Bruno Palace.png" 
+    alt="Pexels Photo by Bruno Palace" 
+    width={202} 
+    height={303} 
+    className="w-[202px] h-[303px] origin-top-left" 
+/>
+
                 </div>
                 <div className="self-stretch h-[25px] px-2 flex-col justify-start items-start gap-2 flex">
                     <div className="self-stretch justify-between items-center inline-flex">
@@ -54,7 +76,14 @@ const Card = () => {
             {/* Card 4 */}
             <div className="w-[302px] h-[400px] p-2 bg-white rounded-2xl flex-col justify-start items-start gap-4 inline-flex">
                 <div className="h-[287px] px-[42px] bg-[#f6f5fd] rounded-lg flex-col justify-center items-center flex">
-                    <img className="w-[202px] h-[303px] origin-top-left" src="./Image/Pexels Photo by Ron Lach.png" />
+                <Image 
+    src="/Image/Pexels Photo by Ron Lach.png" 
+    alt="Pexels Photo by Ron Lach" 
+    width={202} 
+    height={303} 
+    className="w-[202px] h-[303px] origin-top-left" 
+/>
+
                 </div>
                 <div className="self-stretch h-[25px] px-2 flex-col justify-start items-start gap-2 flex">
                     <div className="self-stretch justify-between items-center inline-flex">

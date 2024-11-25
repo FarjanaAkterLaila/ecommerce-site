@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
@@ -10,7 +11,14 @@ const Footer = () => {
                     {/* Left Section: Logo and Description */}
                     <div className="mb-6 lg:mb-0 lg:w-1/2">
                         <div className="flex items-center">
-                            <img src="./Image/wf 1 (1).png" alt="We5ive Logo" className=" h-6 w-10 mr-2" />
+                        <Image 
+    src="/Image/wf 1 (1).png" 
+    alt="We5ive Logo" 
+    width={40} 
+    height={24} 
+    className="h-6 w-10 mr-2" 
+/>
+
                             <span className="logo-text text-[29px] leading-[40px] font-bold font-nunito">
                                 We<span className="text-[#7436F1] font-nunito text-[29.388px] font-bold leading-normal">5</span>ive
                             </span>
@@ -60,13 +68,31 @@ const Footer = () => {
                         <h3 className="font-semibold mb-4">Follow Us</h3>
                         <div className="flex justify-start space-x-4">
                             <a href="#" className="text-gray-400">
-                                <img src="./Image/Facebook.png" alt="Facebook" />
+                            <Image 
+    src="/Image/Facebook.png" 
+    alt="Facebook" 
+    width={40} 
+    height={40} 
+/>
+
                             </a>
                             <a href="#" className="text-gray-400">
-                                <img src="./Image/Twitter.png" alt="Twitter" />
+                            <Image 
+    src="/Image/Twitter.png" 
+    alt="Twitter" 
+    width={40} 
+    height={40} 
+/>
+
                             </a>
                             <a href="#" className="text-gray-400">
-                                <img src="./Image/Linkedin.png" alt="LinkedIn" />
+                            <Image 
+    src="/Image/Linkedin.png" 
+    alt="LinkedIn" 
+    width={40} 
+    height={40} 
+/>
+
                             </a>
                         </div>
                     </div>

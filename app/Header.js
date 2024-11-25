@@ -7,6 +7,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FaRegUser } from "react-icons/fa6";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
     // State to control responsive visibility
@@ -31,11 +32,14 @@ const Header = () => {
                             <FaTimes className="w-8 h-8" />
                         ) : (
                             
-                            <img 
-                                src="./Image/menu-02.png" 
-                                alt="Menu Icon" 
-                                className="w-8 h-8" 
-                            />
+                            <Image 
+    src="/Image/menu-02.png" 
+    alt="Menu Icon" 
+    width={32} 
+    height={32} 
+    className="w-8 h-8" 
+/>
+
                         )}
                     </button>
 
