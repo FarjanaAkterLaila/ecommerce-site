@@ -69,7 +69,7 @@ const Header = () => {
                     <Link href="/shop" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Shop</Link>
 
                     <Link href="/deals" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Deals</Link>
-                    <Link href="/whats-new" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">What's New</Link>
+                    <Link href="/whats-new" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">What&apos;s New</Link>
                 </nav>
 
                 {/* Right Side Icons */}
@@ -109,7 +109,7 @@ const Header = () => {
                         <Link href="/" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Home</Link>
                         <Link href="/shop" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Shop</Link>
                         <Link href="/deals" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Deals</Link>
-                        <Link href="/whats-new" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">What's New</Link>
+                        <Link href="/whats-new" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">What&apos;s New</Link>
                     </nav>
                 </div>
             )}
