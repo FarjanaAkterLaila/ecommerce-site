@@ -22,23 +22,23 @@ const Header = () => {
             <div className="container mx-auto flex justify-between items-center">
 
                 <div className="flex items-center">
-                   
-                    <button 
+
+                    <button
                         className="text-2xl md:hidden mr-4 ml-6"
                         onClick={toggleMobileMenu}
                     >
                         {isMobileMenuOpen ? (
-                           
+
                             <FaTimes className="w-8 h-8" />
                         ) : (
-                            
-                            <Image 
-    src="/Image/menu-02.png" 
-    alt="Menu Icon" 
-    width={32} 
-    height={32} 
-    className="w-8 h-8" 
-/>
+
+                            <Image
+                                src="/Image/menu-02.png"
+                                alt="Menu Icon"
+                                width={32}
+                                height={32}
+                                className="w-8 h-8"
+                            />
 
                         )}
                     </button>
@@ -66,8 +66,8 @@ const Header = () => {
                 {/* Navigation for larger screens */}
                 <nav className="hidden md:flex space-x-6">
                     <Link href="/" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Home</Link>
-                    <Link href="/shop" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Shop</Link> 
-                
+                    <Link href="/shop" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Shop</Link>
+
                     <Link href="/deals" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Deals</Link>
                     <Link href="/whats-new" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">What's New</Link>
                 </nav>
@@ -106,10 +106,10 @@ const Header = () => {
             {isMobileMenuOpen && (
                 <div className="md:hidden mt-4">
                     <nav className="flex flex-col items-start space-y-4">
-                        <a href="/" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Home</a>
-                        <a href="/shop" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Shop</a>
-                        <a href="/deals" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Deals</a>
-                        <a href="/whats-new" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">What's New</a>
+                        <Link href="/" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Home</Link>
+                        <Link href="/shop" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Shop</Link>
+                        <Link href="/deals" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">Deals</Link>
+                        <Link href="/whats-new" className="text-[16px] leading-[20.8px] font-manrope font-semibold hover:text-purple-500 text-[#646464]">What's New</Link>
                     </nav>
                 </div>
             )}

@@ -18,11 +18,14 @@ const Offer = () => {
         <div className="text-white text-[16px] sm:text-[19px] font-normal font-['Manrope']">Shop Now</div>
       </div>
       <div className="w-10 h-10 p-2 bg-[#8f71e1] rounded-full flex justify-center items-center sm:w-12 sm:h-12">
-        <img 
-          className="w-5 h-5 sm:w-6 sm:h-6" 
-          src="./Image/arrow-up-right-01.svg" 
-          alt="icon" 
-        />
+      <Image
+        src="/Image/next-image.png"
+        alt="Next Icon" 
+        width={24} 
+        height={24} 
+        className="w-5 h-5 sm:w-6 sm:h-6" 
+      />
+
       </div>
     </div>
   </div>
